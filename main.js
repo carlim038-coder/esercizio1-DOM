@@ -1,7 +1,8 @@
-// Selezione dei paragrafi
+
+
 let paragrafi = document.querySelectorAll('p');
 
-// 1. Bottone Colore Casuale
+// 1. Bottone Colore Casuale moltiplico per 256 per avere un numero tra 0 e 255
 document.querySelector('#btnColor').addEventListener('click', () => {
     paragrafi.forEach(p => {
         let r = Math.floor(Math.random() * 256);
